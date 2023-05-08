@@ -2,11 +2,13 @@ import React from "react";
 import img1 from './images/Header1.png';
 import img2 from './images/location.png'
 import img3 from './images/email.png'
+import img4 from './images/ux-designer-web-designer.png'
+import img5 from './images/Component.png'
 import About from "./Pages/About";
 import Home from "./Pages/Home";
-import Para from "./Para";
-import Images from "./Images";
-import Footer from "./Footer";
+import Contact from "./Pages/Contact";
+import Research from "./Pages/Research";
+
 import {
     BrowserRouter as Router,
     Link,
@@ -25,50 +27,36 @@ function Navbar () {
                    <a><img className="img4" src={img3}/>vctung@outlook.com</a>
                </div>
                 <nav className="logo">
-                   <a href="#"><img src={img1}/></a>
+                   <Link><img src={img1}/></Link>
                    <Link to="/Home">Home</Link>
                    <Link to="/About">About</Link>
-                   <a href="#">Courses</a>
-                   <a href="#">Contact</a>
-                   <a><button className="Sign">SignUP</button></a>
-                   <a><button>Search</button></a>
+                   <Link>Courses</Link>
+                   <Link to="/Contact">Contact</Link>
+                   <Link><button className="Sign">SignUP</button></Link>
+                   <Link><button>Search</button></Link>
 
                 </nav>
-               <Para/>
-               <Images/>
-               <Footer/>
+                <div className="details">
+                    <p className="yo">Course Details</p>
+                    <h1 className="yoo">Web Development</h1>
+                </div>
+                <div>
+                    <Link to="/Research" className="real"><img src={img4}/></Link>
+                    <Link to="/Research" className="real"><img src={img5}/></Link>
+                </div>
+
            </div>
 
            <Routes>
                <Route path="/Home" element={<Home/>}/>
                <Route path="/About" element={<About/>}/>
+               <Route path="/Contact" element={<Contact/>}/>
+               <Route path="/Research" element={<Research/>} />
            </Routes>
 
         </Router>
         
-        
-       
-       
-       
-       
-       
-       
-       
-       
-       
-       
-       
-       
-       
-       
-       
-       
-       
-       
-       
-       
-       
-       
+    
         // <nav className="Main-Navbar">
         //     <nav className="header">
         //         <div>

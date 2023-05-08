@@ -2,11 +2,7 @@
   background-color: #f0f4f9;
 }
 
-.img5 {
-  height: 15px;
-  margin-left: 60px;
-}
-.img4 {
+.img5 , .img4 {
   height: 15px;
   margin-left: 60px;
 }
@@ -34,39 +30,44 @@
   font-weight: bold;
   text-align: justify;
 }
+.text {
+  margin-left: auto;
+  text-align: left;
+
+}
 .yo {
   margin-left: 200px;
+
 }
 .yoo{
   margin-left: 200px;
   color: blue;
 }
-.header{
+.header {
   background-color: rgb(255, 184, 54);
-}
-.text {
-  margin-left: 200px;
 }
 .blue {
   color: blue;
+}
+.black {
+  color: black;
+  font-weight: bold;
+  margin-left: 100px;
 }
 .top {
   background-color: #f0f4f9;
   
 }
-.topg{
+.topg , .grid , .a , .real{
   margin-left: 100px;
 }
-.grid {
-  margin-left: 100px;
+.b {
+  width: 1350px;
+height: 530px;
 }
 .end{
-  margin-left: 200px;
+  margin-left: 170px;
 
-}
-.hi {
-  margin-left: 100px;
-  background-color: #f0f4f9;
 }
 .Girl{
   margin-left: 200px;
@@ -87,9 +88,9 @@
   text-decoration: none;
 }
 .center {
-  margin-left: auto;
-  margin-right: auto;
-  border-spacing: 50px;
+  margin-left: 200px;
+  border-spacing: 20px;
+
 }
 .white {
   color: rgb(248, 244, 239);
@@ -98,4 +99,18 @@
 .hi {
   background-color:  rgb(255, 184, 54);
   width: 1200px;
+  margin-left: 100px;
+}
+.about {
+  background-image: url(/src/Components/images/anime.png);
+  height: 316px;
+  width: 1510px;
+}
+.title {
+  color: steelblue;
+  font-weight: bold;
+  margin-left: 100px;
+}
+.contact {
+  background-image: url(/src/Components/Pages/Images/icon.png);
 }
