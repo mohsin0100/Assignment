@@ -8,6 +8,8 @@ import About from "./Pages/About";
 import Home from "./Pages/Home";
 import Contact from "./Pages/Contact";
 import Research from "./Pages/Research";
+import Footer from "./Footer";
+import Images from "./Images";
 
 import {
     BrowserRouter as Router,
@@ -44,6 +46,8 @@ function Navbar () {
                     <Link to="/Research" className="real"><img src={img4}/></Link>
                     <Link to="/Research" className="real"><img src={img5}/></Link>
                 </div>
+                <Images/>
+                <Footer/>
 
            </div>
 
