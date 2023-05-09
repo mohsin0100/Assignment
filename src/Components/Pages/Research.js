@@ -1,15 +1,22 @@
 import React from "react";
+import img4 from './Images/ux-designer-web-designer.png'
+import img5 from './Images/Component.png'
 import img9 from "./Images/Group 46.png"
 import img10 from "./Images/Group 47.png"
 import img11 from "./Images/Group 48.png"
 import img12 from "./Images/Group 49.png"
 import img13 from "./Images/Component 16.png"
 import Footer from "../Footer";
+import { Link } from "react-router-dom";
 
 
 function Research (){
     return(
         <div>
+                <div>
+                    <Link to="/Research" className="real"><img src={img4}/></Link>
+                    <Link to="/Research" className="real"><img src={img5}/></Link>
+                </div>
 
             <div className="">
                 <h1 className="black">Description</h1>

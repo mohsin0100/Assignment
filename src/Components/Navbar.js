@@ -11,6 +11,7 @@ import Research from "./Pages/Research";
 import Footer from "./Footer";
 import Images from "./Images";
 
+
 import {
     BrowserRouter as Router,
     Link,
@@ -38,16 +39,17 @@ function Navbar () {
                    <Link><button>Search</button></Link>
 
                 </nav>
-                <div className="details">
+                {/* <div className="details">
                     <p className="yo">Course Details</p>
                     <h1 className="yoo">Web Development</h1>
-                </div>
-                <div>
+                </div> */}
+                {/* <div>
                     <Link to="/Research" className="real"><img src={img4}/></Link>
                     <Link to="/Research" className="real"><img src={img5}/></Link>
-                </div>
+                </div> */}
+                {/* <Home/>
                 <Images/>
-                <Footer/>
+                <Footer/> */}
 
            </div>
 
